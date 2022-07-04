@@ -13,57 +13,87 @@
         rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-    <nav class="navbar">
-        <h2 class="logo">Shecodes</h2>
-        <ul class="nav">
-            <li class="link">Home</li>
-            <li class="link">About</li>
-            <li class="link">service</li>
-        </ul>
-    </nav>
-    <header class="header">
-        <div class="main-section">
-            <h1>This website is awesome </h1>
-            <p>Coding can be fun and frustrating at the same time! if you don't want to go through frustrating, then clink the link below and sign up to learn coding for free! 
-                <br>
-            <button id="click-me">Sign up</button>
-            </p>
+    <nav>
+        <div class="navbar">
+            <h1>Garden of flowers</h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+    
         </div>
-            <div>
-             <img src="data:image/jpeg;base64,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" alt="conding lady">
-           </div>
-     </header>
-    </div>
+        <header>
+            <div class="header">
+                <div class="info-main">
+                    <h2>This website is awesome!</h2>
+                    <p class="basic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque laboriosam
+                        alias rem ducimus debitis quae omnis distinctio minus eos!</P>
+                    <button>sign up</button>
+                </div>
+                <div>
+                    <img class="flower-one"
+                        src="https://images.unsplash.com/photo-1598368457390-95a84ecb87c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdhcmRlbiUyMGZsb3dlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                        alt="garden of flower" </div>
+                </div>
+        </header>
+    </nav>
     <section class="info">
         <h2>Some random information</h2>
         <div class="boxes">
             <div>
-                <div class="box"></div>
+                <div> <img
+                        src="https://images.unsplash.com/photo-1578972497170-bfc780c65f65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvc2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                        alt="barberry"></div>
+                <p class="dummy"> This is some subtext under an illustration of image</p>
             </div>
-            <div class="text">
-            This is some subtext under an illustration of image
-            </div>
+    
             <div>
-                <div class="box"></div>
+                <div><img
+                        src="https://images.unsplash.com/photo-1559563362-c667ba5f5480?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                        alt="barberry"></div>
+                <p class="dummy"> This is some subtext under an illustration of image</p>
             </div>
-            <div class="text">
-            This is some subtext under an illustration of image
-            </div>
+    
             <div>
-                <div class="box"></div>
+                <div><img
+                        src="https://media.istockphoto.com/photos/tulips-flowers-blue-floral-background-closeup-nature-picture-id1334403300?b=1&k=20&m=1334403300&s=170667a&w=0&h=bd-J5Wc-cqjzsKr5sEsrYHCgE0g5i3yyTZ3XqB4cJL4="
+                        alt="barberry"></div>
+                <p class="dummy"> This is some subtext under an illustration of image </p>
             </div>
-            <div class="text">
-            This is some subtext under an illustration of image
-            </div>
+    
             <div>
-                <div class="box"></div>
+                <div><img
+                        src="https://images.unsplash.com/photo-1606041008023-472dfb5e530f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zmxvd2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                        alt="barberry"></div>
+                <p class="dummy"> This is some subtext under an illustration of image </p>
             </div>
-            <div class="text">
-            This is some subtext under an illustration of image
-            </div>
-
         </div>
-    </section>
+    
+    
+    
+        <div class="qoute">
+            <div class="flower">
+                "A flower’s appeal is in its contradictions — so delicate in form yet strong in fragrance, so small in size
+                yet big in beauty, so short in life yet long on effect.”– Terri Guillemets
+            </div>
+        </div>
+    
+        <div class="sign-up">
+            <div class="call-action">
+                <h3>Call to action! its time</h3>
+                <p class="text">singin up for our products by clicking that button right there!</p>
+            </div>
+    
+            <div class="button">
+                <button>sign up</button>
+            </div>
+        </div>
+        <footer>
+            <p>
+                Copyright &copy; The Odin Project 2022
+            </p>
+        </footer>
+
 </body>
 </html>
