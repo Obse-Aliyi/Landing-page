@@ -1,1 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #a2a8d3;
+
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    font-size: 24px;
+    list-style: none;
+
+}
+
+li {
+    padding: 8 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: ccenter;
+    padding: 20px;
+    gap: 20px;
+    background-color: #edb1f1;
+}
+
+.flower-one {
+    width: 400px;
+    align-text: center;
+    height: 200px;
+
+
+}
+
+.info-main {
+    display: flex;
+    flex-direction: column;
+    align-text: center
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    background-color: #9896f1;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+    text-align: center;
+}
+
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dummy {
+    display: flex;
+    width: 100px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 8px;
+}
+
+.basic {
+    display: flex;
+    width: 250px;
+    align-text: center;
+}
+
+.flower {
+    text-align: center;
+    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    padding: 24px;
+    margin: 15px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background: #3B81F6;
+    padding: 30px;
+    margin: 20px;
+    color: white;
+    border-radius: 12px;
+
+
+}
+
+footer {
+    background: #1F2937;
+    text-align: center;
+    color: #B8BBBF;
+    padding: 20px;
+}
+
+.text {
+    color: #C6D5ED;
+}
